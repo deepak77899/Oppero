@@ -389,7 +389,8 @@
     display: none;
   }
   .dope2-mobile1 {
-    left: 25%;
+    left: 50%;
+    transform: translateX(-50%);
   }
   .dope2-p2 {
     width: 100%;
@@ -420,9 +421,6 @@
   .process5 {
     margin-top: 80px;
   }
-  .dope1-redwolf {
-    display: none;
-  }
   .aboutus-banner {
     float: right;
     transform: translateY(0px);
@@ -430,16 +428,25 @@
   .dope {
     margin-top: 0;
   }
+  .dope1-blue {
+    height: 614px;
+  }
+  .dope1-mobile {
+    top: -14px;
+    max-width: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .dope1-redwolf {
+    left: 50%;
+    width: 300px;
+    transform: translateX(-50%);
+    top: 79%;
+  }
 }
 @media screen and (max-width: 520px) {
   html {
     font-size: 34%;
-  }
-  .dope2-mobile1 {
-    left: 7%;
-  }
-  .dope1-redwolf {
-    left: 31%;
   }
   .process3,
   .process5 {
@@ -528,6 +535,15 @@
   .footer-t-content h3 {
     font-size: 4.3rem;
   }
+  .map h2 {
+    font-size: 3.5rem;
+  }
+}
+@media screen and (max-width: 386px) {
+  .process2-arrow img,
+  .process4-arrow img {
+    margin-left: 229px;
+  }
 }
 @media screen and (max-width: 331px) {
   .review {
@@ -535,5 +551,9 @@
   }
   .header {
     height: 1257px;
+  }
+  .process2-arrow img,
+  .process4-arrow img {
+    margin-left: 200px;
   }
 }
